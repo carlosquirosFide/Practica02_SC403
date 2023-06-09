@@ -1,0 +1,202 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 8 jun 2023, 19:59:14
+    Author     : carlo
+*/
+
+    *{
+        margin: 0;
+        
+     }
+     
+     body{
+         font-family: sans-serif;
+         box-sizing: border-box;
+         padding: 80px 20px 0;
+     }
+
+     
+
+     
+     h4{
+         font-size: 12px;
+     }
+     
+      h2{
+         text-align: left;
+         color:darkblue;
+         font-style:italic;
+         font-family:sans-serif;
+         font-size: 25px;     
+     }
+     
+     h3{
+         color: darkmagenta;
+         font-size: 18px;
+         text-align: center;
+         font-style: italic;
+         
+         
+     }
+     
+     p{
+         font-size: 15px;
+         text-align: justify;
+         color: graytext;
+         
+     }
+     
+
+     .encabezado{
+         position: fixed;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 70px;
+         background-color:darkmagenta;
+         
+     }
+     
+     .lateral{
+         position: fixed;
+         top: 70px;
+         left: 0;
+         width: 7.5%;
+         bottom: 30px; 
+         background-color: whitesmoke;
+     }
+     
+          .lateral2{
+         position: fixed;
+         top: 70px;
+         left: 0;
+         width: 18%;
+         bottom: 30px; 
+         background-color: whitesmoke;
+     }
+     
+     .contenido{
+         position: fixed;
+         top: 70px;
+         left: 10%;
+         right:0px;
+         bottom: 30px;
+         overflow-y: scroll;
+     }
+          .contenido1{
+         position: fixed;
+         top: 70px;
+         left: 22%;
+         right:0px;
+         bottom: 30px;
+         overflow-y: scroll;
+     }
+     
+     .pie{
+         position: fixed;
+         left:0;
+         right:0;
+         width: 100%;
+         bottom: 0px;
+         height: 30px;
+         background-color: whitesmoke;
+         color: black;
+         font-size:15px;
+         text-align: center;
+         
+     }
+     
+     table td{
+         font-size:18px;
+         font-family: sans-serif;
+     }
+     
+           tbody tr:nth-child(even){
+                background-color:whitesmoke;
+                
+            }
+            
+            tbody tr:nth-child(odd){
+                background-color:white;
+                
+            }
+            
+            thead tr{
+                background-color: black;
+                color: white;  
+                font-size: 18px;
+            }
+            
+            section div{
+                text-align: center;
+            }
+            
+            .nav{
+                display: flex;
+                justify-content: space-between;
+                margin: 0 auto;
+                
+            }            
+            
+
+     
+     .nav-link{
+         text-decoration: none;
+         color: whitesmoke;
+     }
+     
+     .logo{
+         font-size:30px;
+         font-style: italic;
+         font-weight: bold;
+         padding: 0 40px;
+         line-height: 70px;
+     }
+     
+
+     .nav-menu{
+         display: flex;
+         margin-right: 40px;
+         list-style: none;
+           
+     }
+     
+      .nav-menu-item{
+         
+         font-size: 20px; 
+         margin: 0 10px;
+         line-height: 70px;    
+     }
+     
+
+     
+     .nav-menu-link{
+         padding:8px 12px;
+         
+     }
+     
+     .nav-menu-link:hover{
+         padding:8px 12px;
+         color:plum;
+         font-weight:bolder;
+     }
+          .libros{
+         padding:8px 12px;
+         text-decoration: none;
+         
+     }
+     
+     .libros:hover{
+         padding:8px 12px;
+         color:purple;
+         font-weight:bolder;
+         text-decoration: none;
+     }
+         
+
+     
+     
+
